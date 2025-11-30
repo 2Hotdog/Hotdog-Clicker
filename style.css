@@ -27,3 +27,8 @@ body {
     opacity: 0.9;
     cursor: pointer;
 }
+
+.hotdog-picture:active {
+    opacity: 0.8;
+    transform: scale(1.02)
+}
