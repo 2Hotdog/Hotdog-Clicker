@@ -20,3 +20,8 @@ body {
 .hotdog-picture{
     width: 300px;
 }
+
+.hotdog-picture:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
