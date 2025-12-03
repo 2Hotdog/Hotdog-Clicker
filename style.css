@@ -1,4 +1,14 @@
-body {
+ body {
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.hotdog-picture{
+    width: 300px;
+}
+
+.hotdbody {
     display: grid;
     place-items: center;
     height: 100vh;
@@ -9,22 +19,7 @@ body {
     user-select: none;
 }
 
-.main {
-    display: flex;
-    gap: 200px;
-}
-
-.left h3 {
-    align-items: center;
-    font-size: 30px;
-    margin-bottom: 50px;
-}
-
-.hotdog-picture{
-    width: 300px;
-}
-
-.hotdog-picture:hover {
+.left h3 {og-picture:hover {
     opacity: 0.9;
     cursor: pointer;
 }
@@ -32,4 +27,25 @@ body {
 .hotdog-picture:active {
     opacity: 0.8;
     transform: scale(1.02)
+}
+
+.upgrade {
+    display: flex;
+    align-items: center;
+    width: 330px;
+    height: 60px;
+    border: 4px solid white;
+}
+
+.upgrade-img {
+    width: 55px;
+}
+
+.cost-img {
+    width: 20px;
+}
+
+.main {
+    display: flex;
+    gap: 200px;
 }
